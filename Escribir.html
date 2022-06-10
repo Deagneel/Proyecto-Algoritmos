@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto</title>
+  <script src="Script.js" language="javascript" type="text/javascript" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="ipn.png" alt="Logo" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="Main.html">Portada</a>
+        </li>
+        <li>
+          <a href="Aleatorios.html">Números Aleatorios</a>
+        </li>
+        <li>
+          <a href="Escribir.html">Escribir Números</a>
+        </li>
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+     <!-- NEWS CARDS -->
+     <div class="news-cards">
+      <div>
+        <center>
+          <h1>ALGORITMO DE ORDENAMIENTO BURBUJA</h1>
+          <h1>"Escribir Números"</h1>
+        </center>
+        <br><br>
+	<div id="contenido" style="background:#efefef; height:150px; padding:10px;">
+	</div>
+  <center>
+    <br>
+    <h1>Agregar número a número</h1>
+    <input type="text" id="texto" name="texto" maxlength="35"/>&nbsp &nbsp &nbsp &nbsp &nbsp
+     <input type="button" id="an" value="AÑADIR" onclick="LeerDatos()" />&nbsp &nbsp
+     <br><br>
+     <h1>Escriba la velocidad de animación en el rango: (100 - 300)</h1>
+     <h2>(Tiene 100 por defecto)</h2>
+    <input type="text" name="vl" id="vl" maxlength="100"/>&nbsp &nbsp &nbsp &nbsp &nbsp
+    
+    <input id="botonsito" type="button" value="COMENZAR" onclick="comenzar()" />
+    <br><br>
+       </div>
+  </center>
+
+    </div>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
